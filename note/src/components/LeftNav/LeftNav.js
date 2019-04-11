@@ -9,7 +9,7 @@ class LeftNav extends Component
         return (
             <div className='nav_container'>
                 <div>
-                    <h1 className='nav_header'>Lambda Notes</h1>
+                    <h1 className='nav_header'>Enterprise</h1>
                 </div>
                 <div className='nav_buttons_container'>
                     <Link to='/' className='button_link'>

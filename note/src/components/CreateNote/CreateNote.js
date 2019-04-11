@@ -16,15 +16,21 @@ class CreateNote extends Component
                 <div className='createNote_form' >
                     <input type="text"
                         className='createNote_title'
-                        placeholder='Note Title'
+                
+                        placeholder='To:'
                     />
                     <textarea
                         className='createNote_body'
                         placeholder='Note Content'
                         rows="20"
                     />
+                    <input type="text"
+                        className='createNote_title'
+
+                        placeholder='Timestamp:'
+                    />
                     <a href='#' className='button_link' />
-                <div className='nav_button createNote_button'>Save</div>    
+                <div className='nav_button createNote_button'>Send</div>    
                 </div>
             </div>
         )
